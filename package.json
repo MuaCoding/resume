@@ -1,4 +1,5 @@
 {
+  "homepage": "https://XiaoMingLi.github.io/resume",
   "scripts": {
     "dev": "webpack-dev-server --open --hot",
     "build": "NODE_ENV=production webpack --config webpack-dist.config.js -p"
