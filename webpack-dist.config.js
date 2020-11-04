@@ -54,7 +54,7 @@ module.exports = {
     new OptimizeCSSAssetsPlugin(),
     new EndWebpackPlugin(async () => {
       // 自定义域名
-      fs.writeFileSync(path.resolve(outputPath, 'CNAME'), 'resume.wuhaolin.cn');
+      fs.writeFileSync(path.resolve(outputPath, 'CNAME'), 'http://xiaomingli.github.io/resume');
 
       // 调用 Chrome 渲染出 PDF 文件
       const chromePath = findChrome();
