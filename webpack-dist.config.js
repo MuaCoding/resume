@@ -65,7 +65,7 @@ module.exports = {
         "--headless",
         "--disable-gpu",
         `--print-to-pdf=${path.resolve(outputPath, "resume.pdf")}`,
-        "https://xiaomingli.github.io/resume", // 这里注意改成你的在线简历的网站
+        "https://xiaomingli.github.io/", // 这里注意改成你的在线简历的网站
       ]);
     }),
   ],
