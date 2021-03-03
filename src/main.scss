@@ -241,6 +241,10 @@ a {
 
     .item {
       margin-bottom: 20px;
+      &.flat{
+        width: 50%;
+        float: left;
+      }
     }
   }
   .section-title-l,
