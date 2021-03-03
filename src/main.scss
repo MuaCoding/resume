@@ -209,16 +209,16 @@ a {
   }
   .content-left,
   .content-right {
-    width: 50%;
+    // width: 50%;
     @media screen and (max-width: 1024px) {
       width: 100%;
     }
   }
   .content-left {
-    float: left;
+    // float: left;
   }
   .content-right {
-    float: right;
+    // float: right;
   }
   section {
     overflow: hidden;
